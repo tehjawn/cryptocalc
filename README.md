@@ -1,3 +1,23 @@
+# cryptocalc
+---
+
+CryptoCalc is a multipurpose cryptocurrency analysis platform.
+
+Current planned features:
+> 1. View price of cryptocurrency over time with graph representation.
+> 2. Analyze "volatility level" of cryptocurrency within a designated time frame.
+
+---
+# Libraries Used
+---
+
+
+- **Graph Visualization:** [Nivo](https://nivo.rocks/components)
+- **Crypto API:** [CoinGecko](https://www.coingecko.com/api/documentations/v3)
+- **SPA Library:** [React](https://reactjs.org/docs/create-a-new-react-app.html)
+
+===
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
