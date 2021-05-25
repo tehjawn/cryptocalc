@@ -32,10 +32,8 @@ function setupDataGraph(graphLabel, dataLabels, dataEntries) {
     }
   };
 
-  console.log(graphData)
-
   var myCryptoDataChart = new Chart(
-    document.getElementById('priceHistoryChart'),
+    document.getElementById('graph'),
     config
   );
 }

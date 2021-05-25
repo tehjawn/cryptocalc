@@ -13,13 +13,18 @@
   <div class="ctn">
     <div id="coinsList">
       <h3>Trending Tokens</h3>
+      <div class="choose-one">
+        <button id="trendingCrypto" onclick="buildTrendingGraph()">Trending 10 Crypto Graph</button>
+        <button id="topCrypto" onclick="buildTopGraph()">Top 10 Crypto Graph</button>
+      </div>
     </div>
     <div class="chartCtn">
-      <canvas id="priceHistoryChart"></canvas>
+      <canvas id="graph"></canvas>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="cryptoapi.js"></script>
+  <!-- <script src="cryptoapi.js"></script> -->
+  <script src="cryptocalc.js"></script>
 </body>
 
 </html>

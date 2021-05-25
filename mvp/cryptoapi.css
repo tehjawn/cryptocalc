@@ -44,8 +44,12 @@
   justify-content: center;
 }
 
-#priceHistoryChart {
+#graph {
   align-self: center;
   max-width: 100%;
   max-height: 100%;
+}
+
+.choose-one button {
+  padding: 8px;
 }
